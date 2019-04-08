@@ -194,17 +194,20 @@
 					CF60D7DB1ED1ECA4000E2BBE = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 2L6QV2N95T;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					CF60D7EF1ED1ECA4000E2BBE = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 2L6QV2N95T;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CF60D7DB1ED1ECA4000E2BBE;
 					};
 					CF60D7FA1ED1ECA4000E2BBE = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 2L6QV2N95T;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CF60D7DB1ED1ECA4000E2BBE;
 					};
@@ -418,7 +421,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.tableView-multiSection-statis";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -431,7 +435,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.tableView-multiSection-statis";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -445,7 +450,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.tableView-multiSection-statisTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableView_multiSection_statis.app/tableView_multiSection_statis";
 			};
 			name = Debug;
@@ -460,7 +466,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.tableView-multiSection-statisTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableView_multiSection_statis.app/tableView_multiSection_statis";
 			};
 			name = Release;
@@ -474,7 +481,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.tableView-multiSection-statisUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = tableView_multiSection_statis;
 			};
 			name = Debug;
@@ -488,7 +496,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.tableView-multiSection-statisUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = tableView_multiSection_statis;
 			};
 			name = Release;
@@ -512,6 +521,7 @@
 				CF60D8061ED1ECA4000E2BBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF60D8071ED1ECA4000E2BBE /* Build configuration list for PBXNativeTarget "tableView_multiSection_statisTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +530,7 @@
 				CF60D8091ED1ECA4000E2BBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF60D80A1ED1ECA4000E2BBE /* Build configuration list for PBXNativeTarget "tableView_multiSection_statisUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +539,7 @@
 				CF60D80C1ED1ECA4000E2BBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
